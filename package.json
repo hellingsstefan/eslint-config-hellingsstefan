@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-hellingsstefan",
+  "version": "1.0.0",
+  "description": "Eslint config of Stefan Hellings",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "release": "npm version patch && npm publish"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "Stefan",
+    "Hellings"
+  ],
+  "author": "Stefan Hellings",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.52.0"
+  }
+}
