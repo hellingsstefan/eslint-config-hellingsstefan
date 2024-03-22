@@ -48,7 +48,12 @@ module.exports = {
         'no-negated-condition': 'error',
         'no-this-before-super': 'error',
         'no-trailing-spaces': 'error',
-        'no-use-before-define': 'error',
+        'no-use-before-define': [ 'error', {
+            'functions': false,
+            'classes': true,
+            'variables': true,
+            'allowNamedExports': false
+        } ],
         'object-curly-spacing': [ 'error', 'always' ],
         'padding-line-between-statements': [
             'error',
